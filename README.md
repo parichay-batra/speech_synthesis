@@ -1,4 +1,29 @@
-# Speechify Web Functional Test
+# Project Overview
+
+If a user hovers over a paragraph, a play button will appear next to the paragraph. Clicking on this button should start playback.
+The word being spoken will be highlighted.
+
+### Example of Final Result
+
+![Example](demo.gif)
+
+### Features
+
+- Parsing mechanism that gets all the top level readable elements
+- Functions and hook that lets you get information about the currently hovered element.
+- Hover player react component.
+
+## Setup
+
+1. Clone the repository and run `npm install` to install the dependencies.
+2. Install playwright using `npx playwright install chromium --with-deps`.
+3. Run `npm test` to run unit tests via vite.
+4. Run `npm run playwright` to run integration test.
+5. Run `npm run dev` to start the dev server.
+
+## Development Guidelines
+
+<!-- # Speechify Web Functional Test
 
 ## Project Overview
 
@@ -56,4 +81,4 @@ Check out this demo video of a working prototype example of the final result:
 - Do NOT use any external libraries for the implementation.
 - DO NOT use any Coding Assistants like GitHub Copilot, ChatGPT, etc or any other AI based tools.
 - DO NOT visit direct blogs or articles related to implementation of the tasks.
-- DO NOT use Stackoverflow or any other forum websites.
+- DO NOT use Stackoverflow or any other forum websites. -->
